@@ -1,3 +1,4 @@
+import selenium
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -23,7 +24,7 @@ location_response = client.chat.completions.create(
 )
 location = location_response.choices[0].message.content.strip()
 print(f"Extracted location: {location}")
-
+ar
 
 # location = "New York City"
 checkin_date = "2024-06-15"
